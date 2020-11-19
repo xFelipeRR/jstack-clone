@@ -1,0 +1,107 @@
+#how-much{
+    background: linear-gradient(90.22deg, rgb(21, 23, 23) 0%, #233144 100%);
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.how-much-details{
+    max-width: 1200px;
+    width: 95%;
+
+    font-weight: 400;
+
+    margin-top: 5rem;
+}
+.how-much-details h2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 48px;
+    text-align: center;
+}
+.how-much-details p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+    text-align: center;
+    margin-top: 32px;
+    line-height: 150%;
+}
+.line{
+    width: 96%;
+    height: 6px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(130, 192, 65) 0%, rgb(64, 203, 246) 100%);
+    margin: 45px 0px;
+}
+
+.pay strong{
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.5;
+
+    font-size: 1.6rem;
+}
+.pay strong.only{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay span{
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 10px
+}
+.pay strong.course-payment{
+    background: -webkit-linear-gradient(90deg, rgb(64, 203, 246) 0%, rgb(130, 192, 65) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    opacity: 1;
+
+    font-size: 56px;
+}
+.prize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+.prize span{
+    width: 6rem;
+}
+.pay small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 50px;
+    font-size: 17px;
+    opacity: 0.5;
+    font-weight: 700;
+}
+.pay a{
+    background: rgb(255, 6, 87);
+    font-size: 22px;
+    font-family: Montserrat, "Segoe UI", Verdana, Arial, sans-serif;
+    font-weight: 700;
+    padding: 24px 32px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 11px;
+    transition: all 0.2s ease-in 0s;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+}
+.pay a:hover{
+    background: rgb(204, 4, 69);
+    box-shadow: rgb(102, 2, 34) 0px 8px 20px;
+}

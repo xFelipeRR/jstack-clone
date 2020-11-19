@@ -1,0 +1,45 @@
+.dracula-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(21, 23, 23);
+
+    padding: 45px 5%;
+}
+.dracula-main .dracula-p{
+    width: 600px;
+    
+}
+.dracula-description.registration{
+    font-size: 38px;
+    margin-bottom: 2rem;
+}
+.dracula-description.registration span{
+    color: rgb(80, 250, 123);
+}
+.dracula-description.liberation{
+    margin-top: 1rem;
+}
+.dracula-main img{
+    width: 27%;
+
+    margin-top: 15px;
+    margin-left: 15px;
+}
+@media(max-width: 500px){
+    .dracula-main{
+        flex-direction: column;
+    }
+    .dracula-main .dracula-p{
+        padding: 2rem 7.5rem;
+    }
+    .dracula-description.registration{
+        font-size: 32px;
+    }
+    .dracula-description.liberation{
+        margin-top: 1rem;
+    }
+    .dracula-main img{
+        width: 10rem;
+    }
+}

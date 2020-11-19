@@ -1,0 +1,32 @@
+footer#contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 30px 0;
+}
+footer#contact img{
+    width: 15%;
+
+    margin-left: 1rem;
+}
+footer#contact p{
+    font-size: 15px;
+
+    font-weight: 400;
+
+    margin-left: 17rem;
+}
+footer#contact p strong{
+    font-size: 14px;
+    font-weight: 700;
+
+    color: rgb(255, 6, 87);
+}
+
+@media(max-width:500px){
+    footer#contact p{
+    margin-left: 15px;
+    text-align: center;
+    }
+}

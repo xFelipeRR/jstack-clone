@@ -1,0 +1,176 @@
+.content-box{
+    background: rgb(25, 28, 29);
+   
+    width: 85vw;
+    margin-bottom: 24px;
+    margin: 1.8rem auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 25px 14px 28px;
+
+    position: relative;
+}
+.content-box img{
+    width: 45px;
+    height: 45px;
+
+    margin-left: 1rem;
+}
+.content-box span{
+    font-size: 1.6vw;
+
+    margin-left: 1rem;
+}
+.content-box .logo-plus-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-box .module-stats{
+    font-weight: 400;
+    font-size: 13px;
+
+    padding: 8px;
+
+    border-radius: 5px;
+}
+.content-box.soon{
+    opacity: 0.35;
+}
+.content-box .module-stats.concluded{
+    background: rgba(130, 192, 65, 0.3);
+}
+.content-box .module-stats.recording{
+    background: rgba(255, 6, 87, 0.3);;
+}
+.content-box .module-stats.soon{
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#all-content-boxes .content-box.node-ts img,
+#all-content-boxes .content-box.react-ts img{
+    width: 120px;
+}
+#all-content-boxes .content-box.projeto-final img,
+#all-content-boxes .content-box.deploy img{
+    width: 190px;
+}
+/* Bordas*/
+#all-content-boxes .content-box.node{
+    border-bottom: 4px solid #82C041;
+}
+#all-content-boxes .content-box.react{
+    border-bottom: 4px solid #61DAFB;
+}
+#all-content-boxes .content-box.typescript{
+    border-bottom: 4px solid #007ACC;
+}
+#all-content-boxes .content-box.node-ts .border{
+    background: linear-gradient(90deg, rgb(130, 192, 65) 0%, rgb(0, 122, 204) 100%);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+#all-content-boxes .content-box.react-ts .border{
+    background: linear-gradient(90deg, rgb(97, 218, 251) 0%, rgb(0, 122, 204) 100%);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#all-content-boxes .content-box.projeto-final .border{
+    background: linear-gradient(90deg, rgb(130, 192, 65) 0%, rgb(64, 203, 246) 50%, rgb(29, 118, 242) 100%);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#all-content-boxes .content-box.tests .border{
+    background: rgb(153, 66, 91);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#all-content-boxes .content-box.deploy .border{
+    background: linear-gradient(90deg, rgb(255, 153, 0) 0%, rgb(99, 190, 107) 50%, rgb(0, 122, 204) 100%);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#all-content-boxes .content-box.redux .border{
+    background: rgb(118, 74, 189);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#all-content-boxes .content-box.next .border{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#all-content-boxes .content-box.figma .border{
+    background: linear-gradient(90deg, rgb(240, 79, 43) 0%, rgb(161, 96, 252) 25%, rgb(44, 189, 251) 75%, rgb(36, 206, 133) 100%);
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#all-content-boxes p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+
+    opacity: 0.5;
+    margin-left: 25px;
+}
+
+
+@media(max-width: 560px){
+    #all-content-boxes .content-box{
+        width: 25rem;
+        height: 15rem;
+
+        display: flex;
+        
+        flex-direction: column;
+
+        
+    }
+    .content-box .logo-plus-content{
+        flex-direction: column;
+    }
+    .content-box span{
+        font-size: 20px;
+        text-align: center;
+    }
+    .content-box .module-stats{
+        font-size: 20px;
+    }
+    .content-box .logo-plus-content img{
+        width: 90vw;
+
+        margin-top: 2rem;
+    }
+}
