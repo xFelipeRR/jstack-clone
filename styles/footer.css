@@ -25,8 +25,16 @@ footer#contact p strong{
 }
 
 @media(max-width:500px){
+    footer#contact{
+        height: 200px;
+    }
     footer#contact p{
-    margin-left: 15px;
+    margin-left: 16px;
     text-align: center;
+
+    padding-right: 10px;
+    }
+    footer#contact img{
+        width: 140px;
     }
 }
